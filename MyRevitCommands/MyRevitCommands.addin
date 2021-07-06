@@ -59,7 +59,7 @@
 		<Name>MyRevitCommands</Name>
 		<Assembly>MyRevitCommands.dll</Assembly>
 		<AddInId>8A52EB00-0ECE-445B-94DA-FD67474B857E</AddInId>
-		<FullClassName>MyRevitCommands.PlaceLoopElement</FullClassName>
+		<FullClassName>MyRevitCommands.PlaceLoopElements</FullClassName>
 		<Text>PlaceLoopElement</Text>
 		<Description>PlaceLoopElement</Description>
 		<VendorId>Victoria Dam</VendorId>
@@ -92,9 +92,20 @@
 		<Name>MyRevitCommands</Name>
 		<Assembly>MyRevitCommands.dll</Assembly>
 		<AddInId>C84F5200-C402-4258-A121-A9E9AF9B2750</AddInId>
-		<FullClassName>MyRevitCommands.SetParameter</FullClassName>
+		<FullClassName>MyRevitCommands.ChangeLocation</FullClassName>
 		<Text>Change Location</Text>
 		<Description>Change Location</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>4C9F5745-C334-4FF9-B516-203CE9827861</AddInId>
+		<FullClassName>MyRevitCommands.EditElement</FullClassName>
+		<Text>Edit Element</Text>
+		<Description>Edit Element</Description>
 		<VendorId>Victoria Dam</VendorId>
 		<VendorDescription>Victoria Dam</VendorDescription>
 		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
