@@ -34,6 +34,9 @@
     <ApplicationManifest>MyRevitCommands.addin</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Aspose.Cells, Version=21.6.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Cells.21.6.0\lib\net40\Aspose.Cells.dll</HintPath>
+    </Reference>
     <Reference Include="RevitAPI">
       <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2022\RevitAPI.dll</HintPath>
       <Private>False</Private>
@@ -52,6 +55,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangeLocation.cs" />
+    <Compile Include="SetParameter.cs" />
+    <Compile Include="GetParameter.cs" />
+    <Compile Include="DeleteElement.cs" />
+    <Compile Include="CollectWindows.cs" />
+    <Compile Include="PlaceLoopElements.cs" />
+    <Compile Include="PlaceLineElement.cs" />
+    <Compile Include="PlaceFamily.cs" />
     <Compile Include="GetElementId.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,6 +70,7 @@
     <None Include="MyRevitCommands.addin">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
