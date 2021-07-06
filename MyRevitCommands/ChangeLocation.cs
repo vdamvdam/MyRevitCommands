@@ -28,8 +28,6 @@ namespace MyRevitCommands
 
                     using (Transaction trans = new Transaction(doc, "Change Location"))
                     {
-
-
                         //Set Location
                         LocationPoint locp = ele.Location as LocationPoint;
 
@@ -42,7 +40,6 @@ namespace MyRevitCommands
                             locp.Point = newloc;
                             trans.Commit();
                         }
-
                     }
                 }
 
@@ -53,7 +50,6 @@ namespace MyRevitCommands
                 message = e.Message;
                 return Result.Failed;
             }
-
         }
     }
 }
