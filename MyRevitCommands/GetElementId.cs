@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
-using Autodesk.Revit.Attributes;
+using System;
 
 namespace MyRevitCommands
 {
@@ -33,7 +29,6 @@ namespace MyRevitCommands
                 ElementId eTypeId = ele.GetTypeId();
                 ElementType eType = doc.GetElement(eTypeId) as ElementType;
 
-           
                 //Display Element ID
                 if (pickedObj != null)
                 {
@@ -41,17 +36,15 @@ namespace MyRevitCommands
                         + "Category: " + ele.Category.Name + Environment.NewLine
                         + "Instance: " + ele.Name + Environment.NewLine
                         + "Symbol: " + eType.Name + Environment.NewLine
-                        + "Family: " + eType.FamilyName); 
+                        + "Family: " + eType.FamilyName);
                 }
                 return Result.Succeeded;
             }
-
             catch (Exception e)
             {
                 message = e.Message;
                 return Result.Failed;
             }
         }
-          
     }
 }
