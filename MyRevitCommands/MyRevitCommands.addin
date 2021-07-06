@@ -11,4 +11,92 @@
 		<VendorDescription>Victoria Dam</VendorDescription>
 		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
 	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>3DF29D24-CA10-4D9B-B725-DFAA2D34ACBE</AddInId>
+		<FullClassName>MyRevitCommands.CollectWindows</FullClassName>
+		<Text>CollectWindows</Text>
+		<Description>Collect windows from a document</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>EA51B510-A1A0-4F9B-A76E-B7856E4F71AF</AddInId>
+		<FullClassName>MyRevitCommands.DeleteElement</FullClassName>
+		<Text>DeleteElement</Text>
+		<Description>Delete element from a document</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>47E14F43-87EB-49EA-A1EC-9F0E7192F410</AddInId>
+		<FullClassName>MyRevitCommands.PlaceFamily</FullClassName>
+		<Text>Place Family</Text>
+		<Description>Place Family</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>2C37294A-50B0-461D-9633-106237D042AD</AddInId>
+		<FullClassName>MyRevitCommands.PlaceLineElement</FullClassName>
+		<Text>PlaceLineElement</Text>
+		<Description>Place Line Element</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>8A52EB00-0ECE-445B-94DA-FD67474B857E</AddInId>
+		<FullClassName>MyRevitCommands.PlaceLoopElement</FullClassName>
+		<Text>PlaceLoopElement</Text>
+		<Description>PlaceLoopElement</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>9EE2AB31-669D-4806-BA3B-96C7D601E132</AddInId>
+		<FullClassName>MyRevitCommands.GetParameter</FullClassName>
+		<Text>Get Parameter</Text>
+		<Description>Get Parameter</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>7BDD154F-E113-4747-97F6-88DEF203FC18</AddInId>
+		<FullClassName>MyRevitCommands.SetParameter</FullClassName>
+		<Text>Set Parameter</Text>
+		<Description>Set Parameter</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>C84F5200-C402-4258-A121-A9E9AF9B2750</AddInId>
+		<FullClassName>MyRevitCommands.SetParameter</FullClassName>
+		<Text>Change Location</Text>
+		<Description>Change Location</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
 </RevitAddIns>
