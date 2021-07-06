@@ -21,10 +21,15 @@ namespace MyRevitCommands
             Document doc = uidoc.Document;
 
             //Create Filtered Element Collector
+            FilteredElementCollector collector = new FilteredElementCollector(doc);
 
             //Create Filter
+            ElementCategoryFilter filter = new ElementCategoryFilter(BuiltInCategory.OST_Windows);
 
             //Apply Filter
+            IList<Element> windows = collector.WherePasses(filter).WhereElementIsNotElementType().ToElements();
+
+            TaskDialog.Show("Windows", string.Format("{0} windows counted!", windows.Count));
 
             return Result.Succeeded;
         }
