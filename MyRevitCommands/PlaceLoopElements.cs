@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
-using Autodesk.Revit.Attributes;
-using Aspose.Cells.Charts;
+using System;
+using System.Collections.Generic;
 
 namespace MyRevitCommands
 {
@@ -21,7 +17,7 @@ namespace MyRevitCommands
             //Get Document
             Document doc = uidoc.Document;
 
-            //Create Points 
+            //Create Points
             XYZ p1 = new XYZ(-10, -10, 0);
             XYZ p2 = new XYZ(10, -10, 0);
             XYZ p3 = new XYZ(15, 0, 0);
@@ -46,12 +42,11 @@ namespace MyRevitCommands
             CurveLoop offsetcrv = CurveLoop.CreateViaOffset(crvLoop, offset, new XYZ(0, 0, 1));
 
             CurveArray cArray = new CurveArray();
-           
+
             foreach (Curve c in offsetcrv)
             {
                 cArray.Append(c);//adds curve to curve array
             }
-
 
             try
             {
@@ -64,7 +59,6 @@ namespace MyRevitCommands
                     _ = trans.Commit();
                 }
 
-
                 return Result.Succeeded;
             }
             catch (Exception e)
@@ -72,7 +66,6 @@ namespace MyRevitCommands
                 message = e.Message;
                 return Result.Failed;
             }
-
         }
     }
 }
