@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
-using Autodesk.Revit.Attributes;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace MyRevitCommands
 {
@@ -46,7 +44,6 @@ namespace MyRevitCommands
             curves.Add(l3);
             curves.Add(l4);
 
-
             try
             {
                 using (Transaction trans = new Transaction(doc, "Place Family"))
@@ -61,7 +58,6 @@ namespace MyRevitCommands
                     trans.Commit();
                 }
 
-
                 return Result.Succeeded;
             }
             catch (Exception e)
@@ -69,7 +65,6 @@ namespace MyRevitCommands
                 message = e.Message;
                 return Result.Failed;
             }
-
         }
     }
 }
