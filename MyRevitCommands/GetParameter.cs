@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
-using Autodesk.Revit.Attributes;
+using System;
 
 namespace MyRevitCommands
 {
@@ -22,7 +18,7 @@ namespace MyRevitCommands
                 //Pick Object
                 Reference pickedObj = uidoc.Selection.PickObject(Autodesk.Revit.UI.Selection.ObjectType.Element);
 
-                if (pickedObj != null) 
+                if (pickedObj != null)
                 {
                     //Retrieve Element
                     ElementId eleID = pickedObj.ElementId;
@@ -36,18 +32,15 @@ namespace MyRevitCommands
                         paramdef.Name,
                         //paramdef.UnitType,
                         paramdef.BuiltInParameter));
-
                 }
 
                 return Result.Succeeded;
             }
-
             catch (Exception e)
             {
                 message = e.Message;
                 return Result.Failed;
             }
         }
-
     }
 }
