@@ -55,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EditElement.cs" />
     <Compile Include="ChangeLocation.cs" />
     <Compile Include="SetParameter.cs" />
     <Compile Include="GetParameter.cs" />
