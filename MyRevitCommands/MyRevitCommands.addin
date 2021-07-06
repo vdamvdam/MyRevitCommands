@@ -110,4 +110,122 @@
 		<VendorDescription>Victoria Dam</VendorDescription>
 		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
 	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>47BAF9FE-BE18-42CC-888D-11A8CF18B778</AddInId>
+		<FullClassName>MyRevitCommands.SelectGeometry</FullClassName>
+		<Text>SelectGeometry</Text>
+		<Description>SelectGeometry</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>651397A6-20A7-42F3-8D4E-EC8053E5800D</AddInId>
+		<FullClassName>MyRevitCommands.ElementIntersection</FullClassName>
+		<Text>ElementIntersection</Text>
+		<Description>Check intersections betweens families, select column to see intersection with roof</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>BEC488D5-AD94-40D2-9E3D-7C824F33C7C8</AddInId>
+		<FullClassName>MyRevitCommands.ProjectRay</FullClassName>
+		<Text>ProjectRay</Text>
+		<Description>ProjectRay</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			0D682673-A59A-4888-98F2-E76118B39F90
+		</AddInId>
+		<FullClassName>MyRevitCommands.PlanView</FullClassName>
+		<Text>PlanView</Text>
+		<Description>Create a plan view</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			C2328365-5097-4636-BC97-5EC42EBD5C8A
+		</AddInId>
+		<FullClassName>MyRevitCommands.ViewFilter</FullClassName>
+		<Text>ViewFilter</Text>
+		<Description>Apply a view filter</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			A2A3349F-A385-4C56-B1BE-64F4A67775C5
+		</AddInId>
+		<FullClassName>MyRevitCommands.TagView</FullClassName>
+		<Text>TagView</Text>
+		<Description>Tag elements in a view</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			CAFE1930-43D7-489C-A54F-ABEB4B5DBA6A
+		</AddInId>
+		<FullClassName>MyRevitCommands.Sheets</FullClassName>
+		<Text>Sheet</Text>
+		<Description>Create a new sheet</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			9E779BB0-8C81-4EB8-AB75-B0F9E4866DB8
+		</AddInId>
+		<FullClassName>MyRevitCommands.PlaceView</FullClassName>
+		<Text>PlaceView</Text>
+		<Description>Place a view</Description>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Application">
+		<Name>ApplicationPlugin</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			5C1F4426-F7BE-42EF-9B8B-C4BD0FE8CD68
+		</AddInId>
+		<FullClassName>MyRevitCommands.ExternalApplication</FullClassName>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+	</AddIn>
+	<AddIn Type="DBApplication">
+		<Name>DBApplicationPlugin</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>
+			604B1052-F742-4951-8465-C261D1225407
+		</AddInId>
+		<FullClassName>MyRevitCommands.ExternalDBapp</FullClassName>
+		<VendorId>Victoria Dam</VendorId>
+		<VendorDescription>Victoria Dam</VendorDescription>
+	</AddIn>
 </RevitAddIns>
